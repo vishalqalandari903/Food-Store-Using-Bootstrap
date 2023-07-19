@@ -185,7 +185,7 @@ a {
   margin-top: 200px;
 }
 .poster {
-  background-image: url("img/poster1.jpg");
+  background-image: url("poster1.jpg");
   background-size: cover;
   height: 96vh;
   width: 100%;
