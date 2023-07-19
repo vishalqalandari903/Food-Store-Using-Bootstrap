@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+    />
+    <script src="https://kit.fontawesome.com/5ea815c1d0.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg bg-body-tertiary navbar position-fixed text-dark header-nav col-12 p-4 z-3 shadow-lg"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="home-banner-img">
+      <div class="content">
+        <h4 class="headline">Food store Template</h4>
+        <h1 class="title">Food Store</h1>
+        <button
+          class="btn rounded-pill py-3 px-5 text-white sm-text-red button"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <div class="row m-0 about-us d-flex justify-content-evenly">
+      <div class="card about-us-cards content-card col-3">
+        <div class="headline">Store on Central Street</div>
+        <div class="title">
+          Our Store opened <br />
+          in 2015
+        </div>
+      </div>
+      <div class="card about-us-cards img-card col-3 p-0">
+        <img src="img/all-vagetables.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <div class="card-title title">Our Store</div>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content. Some quick example text to build on the
+            card title and make up the bulk of the card's content. Some quick
+            example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+          <a href="#" class="link">Learn More</a>
+        </div>
+      </div>
+      <div class="card about-us-cards img-card col-3 p-0">
+        <img src="img/all-vagetables.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <div class="card-title title">About Us</div>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content. Some quick example text to build on the
+            card title and make up the bulk of the card's content. Some quick
+            example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+          <a href="#" class="link">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="why-us">
+      <h1 class="heading text-center mb-5">Why Us?</h1>
+      <div class="row">
+        <div class="card icon-card col-4">
+          <img src="img/magicalstick-icon.png" class="card-img-top icon" />
+          <div class="card-body">
+            <a href="#"><div class="card-title title">Magic</div></a>
+            <p class="card-text icon-description">
+              To transform a normal glass of water into <br />
+              a more attractive drink, think about powdered beverage blends and
+              <br />
+              consume alcohol enhancers.
+            </p>
+          </div>
+        </div>
+        <div class="card icon-card col-4">
+          <img src="img/smile-icon.png" class="card-img-top icon" />
+          <div class="card-body">
+            <a href="#"><div class="card-title title">Smile</div></a>
+            <p class="card-text icon-description">
+              To transform a normal glass of water into <br />
+              a more attractive drink, think about powdered beverage blends and
+              <br />
+              consume alcohol enhancers.
+            </p>
+          </div>
+        </div>
+        <div class="card icon-card col-4">
+          <img src="img/sun-icon.png" class="card-img-top icon" />
+          <div class="card-body">
+            <a href="#"><div class="card-title title">Sun</div></a>
+            <p class="card-text icon-description">
+              To transform a normal glass of water into <br />
+              a more attractive drink, think about powdered beverage blends and
+              <br />
+              consume alcohol enhancers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="features">
+      <h1 class="heading text-center mb-5">Features</h1>
+      <div class="row">
+        <div class="card img-card rounded-0 m-3 p-0">
+          <img src="img/all-vagetables.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body p-4">
+            <div class="card-title headline">Celebration</div>
+            <div class="card-title title">Snacks for your event</div>
+            <p class="card-text description">
+              We can make the most exquisite snacks for your celebration events.
+            </p>
+          </div>
+        </div>
+        <div class="card img-card rounded-0 m-3 p-0">
+          <img src="img/all-vagetables.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body p-4">
+            <div class="card-title headline">Fresh food</div>
+            <div class="card-title title">Cane fruits</div>
+            <p class="card-text description">
+              Cane fruits Every day we bring fresh berries to our store. We make
+              different milk cocktails out of them.
+            </p>
+          </div>
+        </div>
+        <div class="card img-card rounded-0 m-3 p-0">
+          <img src="img/all-vagetables.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body p-4">
+            <div class="card-title headline">Souvenirs</div>
+            <div class="card-title title">Food presents</div>
+            <p class="card-text description">
+              We make small and beautiful souvenirs out of cookies, nuts, sweets
+              and fruits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-customers bg-alert p-4">
+      <h1 class="heading text-center">
+        Our customers are <br />
+        always happy
+      </h1>
+      <div id="carouselExampleCaptions" class="carousel slide col-12">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active review1 review">
+            <div class="content">
+              <p class="text-dark text-center review-description mb-5">
+                The community grocery store that is always dynamic, among
+                minority food store that has character, like areas of old! Also
+                the costs are EXCELLENT, also! Oh, I like kid carts. And another
+                point, the product is superb, does not taste like cardboard
+                likelarge box stores. Store in there! Oh, and the hen tenders
+                are the best in our community! In Food Store Template you would
+                find all you need for the successful site creation.
+              </p>
+            </div>
+            <div class="review-person">
+              <img
+                src="img/user-1.png"
+                class="d-block rounded-pill review-img"
+                alt="..."
+              />
+              <p class="">markus Grecho <span>| Client</span></p>
+            </div>
+          </div>
+          <div class="carousel-item review1 review">
+            <div class="content">
+              <p class="text-dark text-center review-description mb-5">
+                The community grocery store that is always dynamic, among
+                minority food store that has character, like areas of old! Also
+                the costs are EXCELLENT, also! Oh, I like kid carts. And another
+                point, the product is superb, does not taste like cardboard
+                likelarge box stores. Store in there! Oh, and the hen tenders
+                are the best in our community! In Food Store Template you would
+                find all you need for the successful site creation.
+              </p>
+            </div>
+            <div class="review-person">
+              <img
+                src="img/user-2.png"
+                class="d-block rounded-pill review-img"
+                alt="..."
+              />
+              <p class="">markus Grecho <span>| Client</span></p>
+            </div>
+          </div>
+          <div class="carousel-item review1 review">
+            <div class="content">
+              <p class="text-dark text-center review-description mb-5">
+                The community grocery store that is always dynamic, among
+                minority food store that has character, like areas of old! Also
+                the costs are EXCELLENT, also! Oh, I like kid carts. And another
+                point, the product is superb, does not taste like cardboard
+                likelarge box stores. Store in there! Oh, and the hen tenders
+                are the best in our community! In Food Store Template you would
+                find all you need for the successful site creation.
+              </p>
+            </div>
+            <div class="review-person">
+              <img
+                src="img/user-3.png"
+                class="d-block rounded-pill review-img"
+                alt="..."
+              />
+              <p class="">markus Grecho <span>| Client</span></p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev text-dark next-previous-icon rounded-pill"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon previous-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next next-previous-icon rounded-pill"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon next-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="poster">
+      <div class="content">
+        <h1>
+          Eat Fresh <br />
+          Eat Healthy
+        </h1>
+      </div>
+    </div>
+    <div class="discount-voucher mb-5">
+      <div class="content">
+        <p>Repair services</p>
+        <p>Up to <span>70% off</span> - All t-shirts & Accesories</p>
+        <button>Explore More</button>
+      </div>
+    </div>
+    <div class="our-products">
+      <div class="head-content">
+        <h1 class="heading text-center">Our Products</h1>
+      </div>
+
+      <div class="products">
+        <div class="row">
+          <div
+            class="col-2 product"
+            id="product1"
+            data-bs-toggle="modal"
+            data-bs-target="#product1modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">SMØRREBRØD</p>
+              <p class="money">$ 14.99</p>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="product1modal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog product-modal product1-modal modal-dialog-centered modal-lg modal-dialog-scrollable"
+            >
+              <div class="modal-content">
+                <div class="modal-header header">
+                  <h1 class="modal-title heading fs-5" id="exampleModalLabel">
+                    SMØRREBRØD
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body product1-modalbody product-modalbody">
+                  <div class="row p-3">
+                    <div class="col-5 img bg-info rounded-2"></div>
+                    <div class="col-6 content mx-4">
+                      <div class="date text-left">11-june-2023</div>
+                      <h1 class="title text-left">SMØRREBRØD</h1>
+                      <div class="description text-left">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit, sunt temporibus laborum cupiditate quis
+                        esse.
+                      </div>
+                      <div class="star-wrapper stars">
+                        <a href="#" class="fas fa-star star"></a>
+                        <a href="#" class="fas fa-star star"></a>
+                        <a href="#" class="fas fa-star star"></a>
+                        <a href="#" class="fas fa-star star"></a>
+                        <a href="#" class="fas fa-star star"></a>
+                      </div>
+                      <p class="price">$ 14.99</p>
+                      <div class="btns">
+                        <button class="btn buy rounded-pill btn-warning">
+                          Buy now
+                        </button>
+                        <button
+                          class="btn add-to-cart rounded-pill btn-outline-warning"
+                        >
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-2 product"
+            id="product2"
+            data-bs-toggle="modal"
+            data-bs-target="#product2modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">PASTA</p>
+              <p class="money">$ 22.99</p>
+            </div>
+          </div>
+
+          <div
+            class="col-2 product"
+            id="product3"
+            data-bs-toggle="modal"
+            data-bs-target="#product3modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">PANCAKE</p>
+              <p class="money">$ 19.99</p>
+            </div>
+          </div>
+
+          <div
+            class="col-2 product"
+            id="product4"
+            data-bs-toggle="modal"
+            data-bs-target="#product4modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">PUMPKIN SOUP</p>
+              <p class="money">$ 15.99</p>
+            </div>
+          </div>
+
+          <div
+            class="col-2 product"
+            id="product5"
+            data-bs-toggle="modal"
+            data-bs-target="#product5modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">SHRIMP</p>
+              <p class="money">$ 34.99</p>
+            </div>
+          </div>
+
+          <div
+            class="col-2 product"
+            id="product6"
+            data-bs-toggle="modal"
+            data-bs-target="#product6modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">FO BO SOUP</p>
+              <p class="money">$ 26.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-2 product"
+            id="product7"
+            data-bs-toggle="modal"
+            data-bs-target="#product7modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">BELGIAN WAFFLE</p>
+              <p class="money">$ 19.99</p>
+            </div>
+          </div>
+          <div
+            class="col-2 product"
+            id="product8"
+            data-bs-toggle="modal"
+            data-bs-target="#product8modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">FRIED EGGS</p>
+              <p class="money">12.99</p>
+            </div>
+          </div>
+          <div
+            class="col-2 product"
+            id="product9"
+            data-bs-toggle="modal"
+            data-bs-target="#product9modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">SMOOTHIE BOWL</p>
+              <p class="money">$ 15.99</p>
+            </div>
+          </div>
+          <div
+            class="col-2 product"
+            id="product10"
+            data-bs-toggle="modal"
+            data-bs-target="#product10modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">PIZZA</p>
+              <p class="money">$ 22.99</p>
+            </div>
+          </div>
+          <div
+            class="col-2 product"
+            id="product11"
+            data-bs-toggle="modal"
+            data-bs-target="#product11modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">GINGERBREAD</p>
+              <p class="money">$ 23.99</p>
+            </div>
+          </div>
+          <div
+            class="col-2 product"
+            id="product12"
+            data-bs-toggle="modal"
+            data-bs-target="#product12modal"
+          >
+            <div class="product-img"></div>
+            <div class="content">
+              <p class="title">BERRY PORRIDGE</p>
+              <p class="money">$ 32.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <a href="#" class="loadmore">Load More</a>
+      </div>
+    </div>
+
+    <div class="container-fluid p-0 rooms row m-0">
+      <div class="g1 col-6 p-5">
+        <div class="full-room">
+          <div class="room1 room">
+            <div class="content">
+              <div class="title">Living Room</div>
+              <div class="order-now"><a href="#">Order Now</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="full-room">
+          <div class="room2 room">
+            <div class="content">
+              <div class="title">Lounge</div>
+              <div class="order-now"><a href="#">Order Now</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g2 col-6 p-5">
+        <div class="full-room">
+          <div class="room3 room">
+            <div class="content position-absolute">
+              <div class="title">Dining Room</div>
+              <div class="order-now"><a href="#">Order Now</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="order-food col-6 m-auto">
+        <h1 class="heading text-center mb-5">Order Food</h1>
+        <form action="">
+          <input
+            type="text"
+            name="Name"
+            class="form-control input-box mb-4 rounded-0"
+            id=""
+            placeholder="Name"
+            required
+          />
+          <input
+            type="text"
+            name="Phone"
+            class="form-control input-box mb-4 rounded-0"
+            id=""
+            placeholder="Phone"
+            required
+          />
+          <input
+            type="text"
+            name="Email"
+            class="form-control input-box mb-4 rounded-0"
+            id=""
+            placeholder="Email Address"
+            required
+          />
+          <textarea
+            name=""
+            id=""
+            placeholder="Message"
+            cols="30"
+            rows="5"
+            class="form-control textarea-box input-box mb-4 rounded-0"
+            required
+          ></textarea>
+          <div class="submit mb-5">
+            <input
+              type="submit"
+              value="Send Form"
+              class="btn rounded-pill py-2 px-4 submitbtn"
+              required
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container poster2">
+      <div id="carouselExample" class="carousel slide crousel-slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/product1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/product2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/product3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container text-center mb-5">
+      <h1 class="heading text-center">Our Location</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115348.16999661867!2d68.28450372566898!3d25.38370364898456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c70f6d444f3c3%3A0xc00bbc183d41e285!2sHyderabad%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1686588638156!5m2!1sen!2s"
+        width="80%"
+        height="500"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="m-auto"
+      ></iframe>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">watch</a></li>
+              <li><a href="#">bag</a></li>
+              <li><a href="#">shoes</a></li>
+              <li><a href="#">dress</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a
+                href="https://www.linkedin.com/in/vishal-kumar-705990266/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
